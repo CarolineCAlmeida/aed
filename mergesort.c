@@ -44,7 +44,7 @@ int main() {
   final = clock();
     
   tempo = ((double) (final - inicio)) / CLOCKS_PER_SEC;
-  printf("segundos\n", tempo);
+  printf("%lf segundos\n", tempo);
     
   return 0;
 }
