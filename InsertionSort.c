@@ -24,7 +24,7 @@ int main() {
   int v[n];
   srand(time(NULL));
     
-  for (i = 0; i < n; i++) {
+  for (i = 0; i < n; i++){
     v[i] = rand() % 100;
   }
   inicio  = clock();
