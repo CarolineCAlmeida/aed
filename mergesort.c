@@ -40,7 +40,7 @@ int main() {
     v[i] = rand() % 100;
   }
   inicio  = clock();
-  mergesort(v, 0, (n - 1));
+  mergesort(v, 0, n - 1);
   final = clock();
     
   tempo = ((double) (final - inicio)) / CLOCKS_PER_SEC;
